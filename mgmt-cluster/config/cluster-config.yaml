@@ -6,18 +6,18 @@ metadata:
   namespace: flux-system
 data:
   clusterType: "macbook"
-  mgmtClusterName: paul-mba
+  mgmtClusterName: paul-mbp
   dnsSuffix: kubernetes.docker.internal
-  clusterIP: 10.104.25.25
+  clusterIP: 10.101.210.99
   scmType: github
   GitHubOrg: pc-dae-gitops
-  GitHubRepo: paul-mba
+  GitHubRepo: paul-mbp
   globalGitHubOrg: pc-dae-gitops
   globalGitHubRepo: global
   globalGitHubBranch: main
   awsAccountId: "none"
   prefixName: paul
-  awsRegion: us-west-2
+  awsRegion: eu-west-1
   userEmail: paul.carlton@dae.mn
   vault_url: https://vault.kubernetes.docker.internal
   commitUser: paul-carlton
